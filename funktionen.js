@@ -72,3 +72,29 @@ console.log(obj.sub1.val2);  //nested object
 // document.body.children[0].innerText = "Hi";
 // console.log(document.getElementById("test"));
 // document.getElementById("test").innerHTML = "Hallo Text!"
+
+// Entscheidungsstrukturen, Control Flow
+
+let cond; 
+
+cond = true;
+cond = (6 > 4);
+cond = (6 < 4);
+cond = (4 == "4");
+
+if (cond) {
+    console.log("Aussage wahr");
+} else {
+    console.log("Aussage falsch");
+}
+
+// Oder
+
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
