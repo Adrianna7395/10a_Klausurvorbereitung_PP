@@ -57,3 +57,18 @@ console.log(obj);
 console.log(obj.val0);
 console.log(obj.sub1.val1);
 console.log(obj.sub1.val2);  //nested object
+
+
+ /*DOM*/
+// DOM  --> Modell der HTMl-Struktur
+// DOM --> Document Object Model
+// DOM --> nach dem Parsen / Laden der HTML-Seite  
+
+// console.log(document);
+// console.log(document.body);
+// console.log(document.body.children);
+// console.log(document.body.children[0]);
+// console.log(document.body.children[0].innerHTML);
+// document.body.children[0].innerText = "Hi";
+// console.log(document.getElementById("test"));
+// document.getElementById("test").innerHTML = "Hallo Text!"
