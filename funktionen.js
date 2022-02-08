@@ -98,3 +98,37 @@ switch (key) {
     default:
         break;
 }
+
+
+// FUNKTIONEN
+
+// Kapselung
+function test() {
+    console.log("Testausgabe");
+}
+
+// 2. return
+console.log(test2());
+function test2() { // do something
+    return "Testausgabe 2"; // Lieferung an die Stelle des calls, return beendet eine Funktion
+    console.log("Noch eine Ausgabe");
+}
+
+// 3. Parameter
+console.log(test3("Robert")); // Argumente
+function test3(firstName) { // Parameter
+    return "Hallo, " + firstName; 
+}
+
+
+// 4. Fkt-Call aus Funktionen
+console.log(test4("Robert")); // Argumente
+function test4(firstName) { // Parameter
+    return grussformel() + firstName; 
+}
+
+function grussformel(params) {
+    return "Hello, ";
+}
+
+// Rechner();
